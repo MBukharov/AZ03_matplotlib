@@ -10,4 +10,7 @@ num_samples = 1000  # Количество образцов
 data = np.random.normal(mean, std_dev, num_samples)
 
 plt.hist(data, bins=20)
+plt.title("Normal distribution")
+plt.xlabel("X")
+plt.ylabel("Probability density")
 plt.show()
